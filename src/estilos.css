@@ -1,0 +1,87 @@
+* {
+    margin: auto 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* padding: 0; */
+}
+
+
+.login {
+    width: fit-content;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    /* padding: 0 300px; */
+    margin: auto 0;
+    justify-content: center;
+    flex-direction: column;
+    /* box-shadow: 5px 10px gray; */
+    /* box-shadow: 1px 1px 2px 2px  gray; */
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+
+.login header {
+    /* display: inline; */
+    color: #fff;
+    font-size: 15px;
+    padding: 39px 100px;
+    border-radius: 20px 20px 0 0;
+    background-color: #57B846;
+}
+    
+
+input[type="text"], input[type="password"] {
+    /* display: flex: ; */
+    align-items: center;
+    border-radius: 50px;
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin-top: 50px;
+}
+.form p {
+    display: flex;
+    font-weight: 1px;
+    justify-content: flex-end;
+    /* text-decoration: none; */
+}
+
+.form p a{
+    text-decoration: none;
+    color: #57B846;
+}
+
+.form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #57B846;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 80px;
+    color:white;
+    font-weight: normal;
+    padding-right: 80px;
+}
+
+.form p {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 150px; */
+}
+
+.form footer a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #57B846;
+}
+
+.form footer p {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
